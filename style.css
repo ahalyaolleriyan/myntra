@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .mainheader{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   justify-content: space-between;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: sticky;
+   top: 0;
+   background-color: #fff;
+ 
+ }
+ .mainheader_1{
+     display: flex;
+     align-items: center;
+     width: 560px;
+     justify-content: space-between;
+     padding-left: 62px;
+ }
+ .mainheader_1 .img{
+     width: 70px;
+     height: auto;
+ 
+ }
+ .mainheader_1 .img img{
+       width: 100%;
+       height: auto;
+      
+ }
+ .mainheader_1 p{
+     font-size: 18px;
+     font-weight: bold;
+     color: rgb(99, 99, 99);
+ }
+ .mainheader_2{
+    
+     width: 450px;
+     height: auto;
+     display:flex ;
+     align-items: center;
+     padding: 10px;
+     background:#f1f1f1;
+ }   
+ .mainheader_2 input{
+     border: none;
+     outline: none;
+     background: transparent;
+     width: 100%;
+ 
+ }
+ .mainheader_3{
+ 
+     width: 150px;
+     display: flex;
+     justify-content: space-between;
+    
+ }
+ .section_1 .banner{
+     width: 100%;
+     height: auto;
+ }
+ .section_1 .banner img{
+     width: 100%;
+     height: auto;
+ }
+ .section_1 .deals{
+     width: 100%;
+     height: auto;
+     padding: 20px;
+     margin-top: 30px;
+    
+ }
+ .section_1 .deals .header{
+     font-size: 26px;
+     font-weight: bold;
+     margin: 30px;
+ }
+ .section_1 .deals .posts{
+     display: flex;
+ 
+ }
+ .section_1 .deals .posts .post{
+     width: 20%;
+     height: auto;
+     padding: 20px;
+ }
+ .section_1 .deals .posts .post img{
+     width: 100%;
+     height: auto;
+ }
